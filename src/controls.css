@@ -1,0 +1,11 @@
+.tool-tray{max-width:1240px;margin:24px auto 0;padding:0 5vw}
+.fold-button{display:flex;align-items:center;gap:8px;background:none;color:var(--muted);font:10px 'DM Mono';text-transform:uppercase;letter-spacing:.04em}
+.fold-button span{display:grid;place-items:center;width:25px;height:25px;border:1px solid var(--line);border-radius:50%;color:#e95d4e;font-size:14px}
+.fold-button b{font-size:15px;color:var(--ink);font-weight:400}
+.tool-options{display:flex;gap:34px;padding:14px 0 3px 33px}
+.tool-options small{display:block;margin-bottom:7px;font:10px 'DM Mono';color:#929590;text-transform:uppercase}
+.brush-options,.shade-options{display:flex;gap:5px}
+.brush-options button,.shade-options button{display:flex;align-items:center;gap:5px;border:1px solid var(--line);background:transparent;border-radius:4px;padding:5px 8px;color:var(--muted);font:10px 'DM Mono'}
+.brush-options button span{display:block;border-radius:50%;background:var(--ink)}
+.brush-options .option-active,.shade-options .option-active{border-color:var(--ink);color:var(--ink);background:#fffaf1}
+@media(max-width:750px){.tool-tray{margin-top:18px;padding:0 20px}.tool-options{padding-left:0;gap:14px;flex-wrap:wrap}.hero{padding-top:45px}}
